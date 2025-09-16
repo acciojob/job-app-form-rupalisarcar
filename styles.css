@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.required_field::after{
+	content:" *";
+	color:red
+}
+div{
+	margin-top:10px;
+}
